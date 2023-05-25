@@ -1,0 +1,210 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+a div.card-body:hover {
+  background-color: #ff7f50;
+  border-radius: 0.8rem;
+  margin: 1px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  margin-top: 1rem;
+}
+input,
+select,
+textarea,
+button {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.1rem #a4a4a4 solid;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+}
+button.primary {
+  background-color: #ff7f50;
+}
+button.block {
+  width: 100%;
+}
+
+header a {
+  height: min-content;
+  color: #ffffff;
+  padding: 1rem;
+}
+a.brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+.row {
+  align-items: center;
+}
+.row.center {
+  justify-content: center;
+}
+.row.top {
+  align-items: flex-start;
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
+}
+
+img {
+  border-radius: 0.8rem;
+}
+
+img.medium {
+  width: 650px;
+
+  max-width: 29rem;
+}
+img.large {
+  margin-top: 10px;
+  width: 90%;
+}
+.price {
+  font-size: 2rem;
+}
+.rating span {
+  color: #f0c040;
+  margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #050505;
+}
+
+#form_id {
+  line-height: 150%;
+  font-size: large;
+  padding-left: 40%;
+  padding-right: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  min-height: 50px;
+}
+
+.form_button {
+  font-size: 15px;
+  margin: 15px;
+  background-color: #ff7f50;
+}
+.form_button:hover {
+  transform: scale(1.5);
+  color: white;
+}
+
+.contentLog {
+  height: 400px;
+  width: 250px;
+  float: center;
+  margin: auto;
+  border-radius: 20px;
+  background: linear-gradient(to right top, #ff7f50, rgb(4, 238, 187));
+  box-shadow: 0px 5px 15px rgb(22, 21, 21);
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.form {
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: rgba(221, 235, 240, 0.4);
+  color: #ff7f50;
+}
+
+.form-group {
+  margin-left: 20px;
+}
+
+button.log {
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 10px grey;
+}
+
+button a {
+  text-decoration: none;
+  color: purple;
+  font-size: large;
+}
+button a :hover {
+  transform: scale(2);
+  color: rgb(219, 116, 214);
+}
+
+.container {
+  display: flex;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-63 {
+  float: right;
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}

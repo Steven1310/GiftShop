@@ -1,0 +1,37 @@
+{
+  "name": "GiftShop",
+  "version": "1.0.0",
+  "description": "GiftShop is a platform where you can not only buy the perfect give but also wrap it in your favorite design wraper paper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "frontend": "npm start --prefix frontend",
+    "backend": "nodemon ./backend/server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "gift",
+    "new",
+    "christmas",
+    "top"
+  ],
+  "author": "Steven Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.16.0",
+    "mongoose": "^6.0.14",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
